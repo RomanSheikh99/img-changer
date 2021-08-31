@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: 96%;
+    margin: 1.5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 20px 25px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    text-align: center;
+    background: #00000075;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+}
+
+#pre{
+    left: 5%;
+}
+#next{
+    right: 5%;
+}
+
+img#img {
+    border-radius: 5px;
+    max-height: 80%;
+    max-width: 100%;
+}
